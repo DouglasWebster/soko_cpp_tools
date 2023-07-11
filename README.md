@@ -8,9 +8,34 @@
 Tools required to create artifacts for use in the Sokoban game being developed on the Godot4 platform.
 
 
-## More Details
+### Make Level files
+This utility will take Sokoban level files and convert them to a format suitable for parsing into a game.  The output is stored in a Json file and has the following format.
 
- * [Dependency Setup](README_dependencies.md)
- * [Building Details](README_building.md)
- * [Troubleshooting](README_troubleshooting.md)
- * [Docker](README_docker.md)
+```json
+{
+  "Collections" : [
+    {
+      "name" : "collection_1_name",
+      "authors": "collection 1 author(s)",
+      "comments": "things like licence etc...",
+      "levels" : [
+        {
+          "level_id": 1,
+          "rows" : [ "row 1 data", "row 2 data", "etc..."],
+          "author" : "author of the level 1",
+          "comment" : "any comment about the level 1" 
+        },
+        {
+          "level_id": 2,
+          "rows" : [ "row 1 data", "row 2 data", "etc..."],
+          "author" : "author of the level 2",
+          "comment" : "any comment about the level 2" 
+        }
+        {
+          "etc": "more level data!"
+        }
+      ]
+    }
+  ]  
+}
+```
