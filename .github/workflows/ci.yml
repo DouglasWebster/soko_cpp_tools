@@ -39,11 +39,11 @@ jobs:
         generator:
           - "Ninja Multi-Config"
         build_type:
-          - Release
+          # - Release
           - Debug
         packaging_maintainer_mode:
-          # - ON
-          - OFF
+          - ON
+          # - OFF
         build_shared:
           - OFF
 
