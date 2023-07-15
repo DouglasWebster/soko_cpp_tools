@@ -11,7 +11,8 @@ target_link_system_libraries(
     make_json
     PRIVATE
         CLI11::CLI11
-        fmt::fmt   
+        fmt::fmt
+        spdlog::spdlog
 )
 
 target_include_directories(make_json PRIVATE "${CMAKE_BINARY_DIR}/configured_files/include")
