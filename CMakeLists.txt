@@ -104,7 +104,7 @@ include(cmake/PackageProject.cmake)
 # we know we want to ship
 soko_cpp_tools_package_project(
   TARGETS
-  intro
+  # intro
   soko_cpp_tools_options
   soko_cpp_tools_warnings
   # FIXME: this does not work! CK

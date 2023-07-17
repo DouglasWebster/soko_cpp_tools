@@ -19,7 +19,7 @@ macro(soko_cpp_tools_supports_sanitizers)
 endmacro()
 
 macro(soko_cpp_tools_setup_options)
-  option(soko_cpp_tools_ENABLE_HARDENING "Enable hardening" ON)
+  option(soko_cpp_tools_ENABLE_HARDENING "Enable hardening" OFF)
   option(soko_cpp_tools_ENABLE_COVERAGE "Enable coverage reporting" OFF)
   cmake_dependent_option(
     soko_cpp_tools_ENABLE_GLOBAL_HARDENING

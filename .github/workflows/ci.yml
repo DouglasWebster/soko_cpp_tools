@@ -141,7 +141,6 @@ jobs:
         with:
           envFile: '.github/constants.env'
 
-
       - name: Setup Cpp
         uses: aminya/setup-cpp@v1
         with:

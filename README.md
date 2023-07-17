@@ -1,8 +1,19 @@
 # soko_cpp_tools
 
+
+**MAIN BRANCH:**
+
 [![ci](https://github.com/DouglasWebster/soko_cpp_tools/actions/workflows/ci.yml/badge.svg)](https://github.com/DouglasWebster/soko_cpp_tools/actions/workflows/ci.yml)
 [![codecov](https://codecov.io/gh/DouglasWebster/soko_cpp_tools/branch/main/graph/badge.svg)](https://codecov.io/gh/DouglasWebster/soko_cpp_tools)
 [![CodeQL](https://github.com/DouglasWebster/soko_cpp_tools/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/DouglasWebster/soko_cpp_tools/actions/workflows/codeql-analysis.yml)
+
+
+**DEVELOP BRANCH**
+
+[![ci](https://github.com/DouglasWebster/soko_cpp_tools/actions/workflows/ci.yml/badge.svg?branch=develop)](https://github.com/DouglasWebster/soko_cpp_tools/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/DouglasWebster/soko_cpp_tools/branch/main/graph/badge.svg?branch=develop)](https://codecov.io/gh/DouglasWebster/soko_cpp_tools)
+[![CodeQL](https://github.com/DouglasWebster/soko_cpp_tools/actions/workflows/codeql-analysis.yml/badge.svg?branch=develop)](https://github.com/DouglasWebster/soko_cpp_tools/actions/workflows/codeql-analysis.yml)
+
 
 ## About soko_cpp_tools
 Tools required to create artifacts for use in the Sokoban game [godot_sokoban](https://github.com/DouglasWebster/godot_sokoban) being developed for the Godot4 platform.
