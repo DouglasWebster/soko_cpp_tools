@@ -11,3 +11,12 @@ int factorial(int input) noexcept
 
   return result;
 }
+
+std::vector<std::string> parse_dir_tree(std::string& root) noexcept
+{
+  std::vector<std::string> files{};
+  if(!root.empty()) {
+    files.push_back(root);
+  }
+  return files;
+}

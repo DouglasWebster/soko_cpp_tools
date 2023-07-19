@@ -12,3 +12,10 @@ TEST_CASE("Factorials are computed", "[factorial]")
   REQUIRE(factorial(3) == 6);
   REQUIRE(factorial(10) == 3628800);
 }
+
+TEST_CASE("Parsing directories requires a root directory", "parsingFiles")
+{ 
+  std::string root {}; 
+  const std::vector<std::string> files = parse_dir_tree(root);
+  REQUIRE(files.empty() == true);
+}
