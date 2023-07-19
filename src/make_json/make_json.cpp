@@ -1,4 +1,6 @@
-#include <fmt/core.h>
+#include <format>
+#include <string>
+#include <iostream>
 
 #include <optional>
 
@@ -10,7 +12,7 @@
 int main(int argc, const char **argv)
 {
   try {
-    CLI::App app{ fmt::format(
+    CLI::App app{ std::format(
       "{} version {}", soko_cpp_tools::cmake::project_name, soko_cpp_tools::cmake::project_version) };
 
     std::optional<std::string> message;
@@ -21,7 +23,7 @@ int main(int argc, const char **argv)
     CLI11_PARSE(app, argc, argv);
 
     if (show_version) {
-      fmt::print("{}\n", soko_cpp_tools::cmake::project_version);
+      std::cout << std::format("{}\n", soko_cpp_tools::cmake::project_version);
       return EXIT_SUCCESS;
     }
 
